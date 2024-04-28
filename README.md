@@ -9,10 +9,8 @@ $\tilde{G}_2$. The balance between these two losses is controlled by the paramet
 
 We conducted extensive experiments to identify the optimal $\lambda$ values for seven different GNNs encoders. The experimental results show that most models benefit from incorporating contrastive loss, underscoring its effectiveness in enhancing learning dynamics and improving model performance. This study highlights the potential of integrating supervised contrastive learning into a one-stage training framework, which not only achieves superior results but also streamlines the hyperparameter tuning process.
 
+The project is based on [PyGCL](https://github.com/PyGCL/PyGCL)(Zhu, Yanqiao et al. “An Empirical Study of Graph Contrastive Learning.” ArXiv abs/2109.01116 (2021): n. pag.) library. Specifically, We have adopted and applied the GRACE (Y. Zhu et al., Deep Graph Contrastive Representation Learning, GRL+@ICML, 2020) and SupCon (P. Khosla et al., Supervised Contrastive Learning, NeurIPS, 2020) frameworks to our graph representative learning task. 
 
 Find out more about our data here: [Data](data/README.md)
-
-View our presentation here: [Presentation](Flight_Delay_Prediction_Presentation.pdf)
-*note: this presentation was given before our project was finished and does not include the final results of our models.*
 
 View our final report here: [Final Report](Flight_Delay_Prediction_Report.pdf)
