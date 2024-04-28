@@ -13,4 +13,4 @@ The project is based on [PyGCL](https://github.com/PyGCL/PyGCL)(Zhu, Yanqiao et 
 
 Find out more about our data here: [Data](data/README.md)
 
-View our final report here: [Final Report](CSE_881_Project_Report.pdf)
+View our final report here: [Final Report](CSE881_Project_Report.pdf)
