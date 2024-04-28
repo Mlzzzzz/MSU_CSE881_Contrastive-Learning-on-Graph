@@ -4,7 +4,10 @@
 
 </div>
 
-This project addresses the significant challenge of predicting flight delays using advanced machine learning models, focusing on binary and multi-class classification to ascertain the presence and duration of delays. Utilizing comprehensive datasets, including detailed weather and operational conditions from 2014 to 2018, the analysis identifies key factors such as severe weather, specific airlines, and departure times as critical predictors. These models demonstrate a substantial improvement in forecasting accuracies, offering practical insights for operational adjustments in real-time scenarios that could considerably mitigate disruptions and enhance airline operational efficiency.
+In this study, we implemented a one-stage supervised contrastive learning framework that employs contrastive loss as a regularization term to enhance the generalization capabilities of supervised learning. The loss objective of our model comprises two components: the supervised loss derived from the original graph $G$ and its training labels, and the contrastive loss generated from embeddings of two distinct augmented views, $\tilde{G}_1$ and 
+$\tilde{G}_2$. The balance between these two losses is controlled by the parameter $\lambda$. This approach demonstrated a significant advantage over traditional $l_2$ decay.
+
+We conducted extensive experiments to identify the optimal $\lambda$ values for seven different GNNs encoders. The experimental results show that most models benefit from incorporating contrastive loss, underscoring its effectiveness in enhancing learning dynamics and improving model performance. This study highlights the potential of integrating supervised contrastive learning into a one-stage training framework, which not only achieves superior results but also streamlines the hyperparameter tuning process.
 
 
 Find out more about our data here: [Data](data/README.md)
